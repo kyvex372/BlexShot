@@ -5,6 +5,8 @@
 <h1 align="center">BlexShot</h1>
 <p align="center"><strong>Yakala. Düzenle. Paylaş.</strong><br>Windows için kompakt ekran yakalama ve anında düzenleme aracı.</p>
 
+[![Windows testleri](https://github.com/kyvex372/BlexShot/actions/workflows/windows.yml/badge.svg)](https://github.com/kyvex372/BlexShot/actions/workflows/windows.yml)
+
 BlexShot, ekranın istediğiniz bölümünü yakalayıp doğrudan üzerinde çalışmanızı sağlar. Ok ekleyin, not yazın, hassas bölgeleri gizleyin ve sonucu tek hareketle kopyalayın veya kaydedin. Görüntüler yerel olarak işlenir; bir sunucuya gönderilmez.
 
 ![BlexShot kompakt yönetim ekranı](docs/images/management.png)

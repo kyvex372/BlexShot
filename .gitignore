@@ -35,3 +35,6 @@ PLAN_V1_3.md
 .DS_Store
 Thumbs.db
 Desktop.ini
+
+# Legacy local build entry point
+/SnapForgePro.spec
