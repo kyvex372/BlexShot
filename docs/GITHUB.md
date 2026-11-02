@@ -1,4 +1,6 @@
-# GitHub'a yükleme
+# GitHub ve sürüm dağıtımı
+
+Depo: [kyvex372/BlexShot](https://github.com/kyvex372/BlexShot) · [Sürümler](https://github.com/kyvex372/BlexShot/releases)
 
 ## Hazır kaynak paketi
 
@@ -21,7 +23,7 @@ git init -b main
 git add .
 git status
 git commit -m "Initial BlexShot 1.4.1 source"
-git remote add origin https://github.com/KULLANICI_ADINIZ/BlexShot.git
+git remote add origin https://github.com/kyvex372/BlexShot.git
 git push -u origin main
 ```
 
@@ -38,3 +40,7 @@ EXE dosyasını kaynak deposuna commit etmeyin. Yerelde doğrulanan `dist/BlexSh
 ## Lisans
 
 Proje sahibinin lisans tercihi henüz belirlenmedi; hazırlık sırasında MIT/GPL gibi bir lisans atanmadı. Kaynak için istediğiniz lisansı seçtikten sonra köke `LICENSE` ekleyin ve README'deki lisans bölümünü güncelleyin. Logo kullanıcı tarafından sağlanmıştır; üçüncü taraf bileşenlerin bildirimleri `THIRD_PARTY_NOTICES.md` içinde bulunur.
+
+## Doğrulanmış CI çıktısından Release yayımlama
+
+Actions → **Publish release** → Run workflow ekranında başarılı **Windows** derlemesinin run ID'sini ve sürüm etiketini girin. Bu ayrı workflow, EXE raporunu ve SHA256 değerini kontrol edip `BlexShot.exe` ile `SHA256SUMS.txt` dosyalarını Release'e ekler. Yayımlama yalnızca elle tetiklenir; normal kaynak güncellemeleri Release yayımlamaz.
