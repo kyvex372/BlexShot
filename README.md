@@ -78,3 +78,9 @@ Sürüm 1.4.1 için **46 otomatik test**, Windows üzerinde kısayol kayıt/çak
 ## Lisans
 
 Proje için henüz açık kaynak lisansı seçilmemiştir. Üçüncü taraf bileşenlerin lisansları kendilerine aittir; [bildirimlere](THIRD_PARTY_NOTICES.md) bakın. BlexShot logosu proje sahibi tarafından sağlanmıştır.
+
+## Topluluk
+
+- **Blexa:** https://discord.gg/blexa
+- **FiveM Leak TR:** https://discord.gg/fivemleaktr
+- **GitHub:** https://github.com/kyvex372
