@@ -7,7 +7,7 @@ import zipfile
 ROOT = Path(__file__).resolve().parent.parent
 ROOT_FILES = (
     ".editorconfig", ".gitattributes", ".gitignore", "README.md",
-    "CONTRIBUTING.md", "THIRD_PARTY_NOTICES.md", "requirements.txt",
+    "THIRD_PARTY_NOTICES.md", "requirements.txt",
     "requirements-lock.txt", "main.py", "BlexShot.spec", "build.bat", "run.bat",
 )
 DIRECTORIES = {
